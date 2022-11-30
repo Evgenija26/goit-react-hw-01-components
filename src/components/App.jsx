@@ -9,10 +9,12 @@ import friends from '../data/friends.json';
 
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 import transactions from '../data/transactions.json';
+import { GlobalStyle } from './GlobalStyle';
 
 export const App = () => {
   return (
     <>
+      <GlobalStyle />
       <Profile
         avatar={user.avatar}
         username={user.username}
@@ -27,3 +29,4 @@ export const App = () => {
     </>
   );
 };
+
