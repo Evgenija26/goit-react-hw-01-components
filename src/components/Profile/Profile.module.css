@@ -1,5 +1,5 @@
 .profile {
-    width: 220px;
+    width: 250px;
     margin: 15px auto;
     border-radius: 7px;
     background-color: whitesmoke;
@@ -49,6 +49,7 @@
     background-color: rgb(200, 204, 209);
 
     border-top: 1px solid black;
+    
 }
 
 .stats__item {
